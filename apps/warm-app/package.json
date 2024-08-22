@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "cool-app",
+  "name": "warm-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,20 +9,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/metro-runtime": "~3.2.3",
-    "@types/react": "~18.2.79",
-    "cool-package": "workspace:*",
-    "warm-package": "workspace:*",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
-    "is-odd": "2.0.0",
+    "is-even": "^1.0.0",
+    "is-odd": "3.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.74.5",
-    "react-native-web": "~0.19.10",
-    "typescript": "~5.3.3"
+    "react-native": "0.74.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
-  }
+  },
+  "private": true
 }

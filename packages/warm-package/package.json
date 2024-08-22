@@ -1,9 +1,9 @@
 {
-  "name": "cool-package",
+  "name": "warm-package",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "is-odd": "3.0.1"
+    "is-odd": "3.0.0"
   }
 }
